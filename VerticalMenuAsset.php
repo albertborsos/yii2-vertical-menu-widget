@@ -8,7 +8,7 @@ use Yii;
 class VerticalMenuAsset extends AssetBundle
 {
     public $time;
-    public $sourcePath = '@vendor/albertborsos/yii2-vertical-menu-widget/assets/';
+    public $sourcePath = '@vendor/albertborsos/yii2-vertical-menu/assets/';
 
     public $css;
     public $js;
@@ -34,6 +34,4 @@ class VerticalMenuAsset extends AssetBundle
             //'js/handler.js'.$this->time,
         ];
     }
-
-
 } 
