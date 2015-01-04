@@ -77,7 +77,7 @@ class VerticalMenu extends Widget{
                 echo Html::beginTag('div', ['class' => 'accordion-heading']);
                 $itemName    = ArrayHelper::getValue($item, 'name');
                 $itemUrl     = ArrayHelper::getValue($item, 'url');
-                $itemOptions = ArrayHelper::getValue($item, 'itemOptions');
+                $itemOptions = ArrayHelper::getValue($item, 'itemOptions', []);
                 echo Html::a($itemName, $itemUrl, $itemOptions);
                 echo Html::endTag('div'); // end of .accordion-heading
             }else{
