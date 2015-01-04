@@ -1,0 +1,25 @@
+{
+  "name": "albertborsos/yii2-vertical-menu",
+  "description": "Yii2 Vertical Menu Widget",
+  "keywords": ["yii2", "vertical", "menu", "widget"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/albertborsos/yii2-vertical-menu-widget/issues",
+    "source": "https://github.com/albertborsos/yii2-vertical-menu-widget"
+  },
+  "authors": [
+    {
+      "name": "Albert Borsos",
+      "email": "blog@borsosalbert.hu"
+    }
+  ],
+  "require": {
+    "albertborsos/yii2-lib": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "albertborsos\\yii2user\\": ""
+    }
+  }
+}
