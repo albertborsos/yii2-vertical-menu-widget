@@ -10,14 +10,27 @@
 .list-group-item{
     background-color: transparent !important;
     padding: 0px !important;
+    border: none;
 }
 .list-group-item a{
     padding: 5px 15px !important;
     display: block;
+    border-radius: 4px;
+}
+.list-group-item .fa{
+    padding: 4px 0 0 0;
 }
 .panel-title a.collapse-toggle:visited,
 .panel-title a.collapse-toggle:hover,
-.panel-title a.collapse-toggle:focus
+.panel-title a.collapse-toggle:focus,
+.list-group-item a:visited,
+.list-group-item a:hover,
+.list-group-item a:focus
 {
     text-decoration: none !important;
+}
+
+.list-group-item a:hover{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    color:#fff;
 }
