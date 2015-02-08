@@ -21,17 +21,14 @@ class VerticalMenuAsset extends AssetBundle
     public function init()
     {
         parent::init();
-        if (YII_DEBUG){
-            $this->time = '?'.time();
-        }
 
         $this->css = [
-            //'css/style.css'.$this->time,
-            'css/style.css'.$this->time,
+            //'css/style.css',
+            'css/style.css',
         ];
 
         $this->js = [
-            //'js/handler.js'.$this->time,
+            //'js/handler.js',
         ];
     }
 } 
