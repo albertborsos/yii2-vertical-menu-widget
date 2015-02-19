@@ -135,7 +135,7 @@ class VerticalMenu extends Collapse
                     'data-parent' => '#' . $this->options['id']
                 ]) . "\n";
 
-            $header = Html::tag('h3', $headerToggle, ['class' => 'panel-title']);
+            $header = Html::tag('span', $headerToggle, ['class' => 'panel-title']);
 
             $content = Html::tag('div', $item['content']) . "\n";
         } else {
