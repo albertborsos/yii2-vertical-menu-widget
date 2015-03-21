@@ -79,11 +79,13 @@ class VerticalMenu extends Collapse
      */
     public function run()
     {
-        echo Html::beginTag('div', $this->options) . "\n";
-        echo $this->renderItems() . "\n";
-        echo Html::endTag('div') . "\n";
-        $this->registerPlugin('collapse');
-        $this->registerAssets();
+        if($this->items !== false){
+            echo Html::beginTag('div', $this->options) . "\n";
+            echo $this->renderItems() . "\n";
+            echo Html::endTag('div') . "\n";
+            $this->registerPlugin('collapse');
+            $this->registerAssets();
+        }
     }
 
     /**
